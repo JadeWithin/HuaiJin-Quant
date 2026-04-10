@@ -1,0 +1,14 @@
+[project]
+name = "quant-open-source-edition"
+version = "0.1.0"
+description = "Public-safe strict backtesting framework with T-1/T execution discipline and lot-level bookkeeping."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pandas",
+  "numpy",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
